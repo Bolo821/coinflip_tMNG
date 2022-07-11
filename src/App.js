@@ -6,7 +6,7 @@ import { Card } from "./components/Card";
 import { Main } from "./components/Main";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-// import { Admin } from "./components/Admin";
+import { Admin } from "./components/Admin";
 import { Notifications } from "./components/Notifications";
 import { Warning } from "./components/Warning";
 import { Game } from "./components/Game";
@@ -39,7 +39,7 @@ export const App = () => {
       <Main>
         <Card>
           <Game />
-          {/* <Admin /> */}
+          <Admin />
         </Card>
       </Main>
       <Footer />
